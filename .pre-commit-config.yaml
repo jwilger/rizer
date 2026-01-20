@@ -80,10 +80,6 @@ repos:
       - id: check-json
         exclude: '\.devcontainer/devcontainer\.json$'
         always_run: true
-      - id: pretty-format-json
-        args: ["--autofix", "--indent=2"]
-        exclude: '\.devcontainer/devcontainer\.json$'
-        always_run: true
 
   # Prettier formatting for markdown, HTML, JS/TS
   - repo: https://github.com/pre-commit/mirrors-prettier
